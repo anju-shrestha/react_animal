@@ -1,0 +1,22 @@
+body{
+  background-color:lightblue;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+button{
+  background: lightcoral;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+.animal-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
